@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            'sans': ['Lato', 'Helvetica', 'Arial', 'sans-serif'],
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-cover bg-center bg-no-repeat bg-black bg-[url('/background.jpg')] md:bg-[url('/background-large.jpg')]">
+    <!-- bg-sky-800 -->
+    <header class="flex p-5 shadow-xl bg-black/50">
+      <div>
+        <img src="./logo.png" alt="North West Bytes" class="h-10" />
+      </div>
+    </header>
+    <main>
+      <h1 class="text-sky-100 text-5xl md:text-8xl text-center mt-10">North West Bytes</h1>
+      <h3 class="text-sky-100 text-3xl text-center mt-4">Professional software services</h3>
+      <div class="flex justify-center mt-10">
+        <div class="bg-slate-100 rounded-md shadow-xl p-10 max-w-2xl mx-5">
+          <p class="text-l md:text-xl  text-justify">Our experienced software professionals deliver tailored solutions to drive digital transformation, enhance your operational efficiency, and improve the customer experiences.</p>
+          <p class="text-l md:text-xl mt-5  text-justify">Partner with us to accelerate your digital journey and achieve your business goals.</p>
+          <p class="text-l md:text-xl mt-5">Get in touch with us at <a href="mailto:contact@nwbytes.com" class="text-blue-600 font-bold hover:underline">contact@nwbytes.com</a></p>
+      </div>
+      </div>
+    </main>
+  </body>
+</html>
